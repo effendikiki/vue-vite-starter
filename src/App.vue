@@ -2,8 +2,8 @@
 
 <template>
     <div>
-        <router-link :to="{name : 'Home'}">Home</router-link> - 
-        <router-link :to="{name : 'About'}">About</router-link>
+        <router-link :to="{ name: 'Home' }">Home</router-link> -
+        <router-link :to="{ name: 'About' }">About</router-link>
     </div>
     <router-view></router-view>
 </template>
@@ -17,7 +17,7 @@
     color: #2c3e50;
     margin-top: 60px;
 }
-router-link{
-  margin: 0 5px;
+router-link {
+    margin: 0 5px;
 }
 </style>
